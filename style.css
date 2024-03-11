@@ -1,0 +1,192 @@
+html {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+nav > ul {
+  display: flex;
+  align-items: center;
+}
+nav li {
+  list-style: none;
+  margin-right: 10px;
+  padding: 5px;
+}
+nav li a {
+  text-decoration: none;
+}
+/* button related style */
+.common-btn {
+  color: white;
+  background-color: #fd6e0a;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  width: 120px;
+  height: 40px;
+}
+.btn-primary {
+  border-radius: 5px;
+  background-color: #fd6e0a;
+  color: white;
+}
+.nav-img {
+  padding: 10px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-title {
+  padding-left: 1px;
+  font-size: 40px;
+}
+.primary-color {
+  color: #fd6e0a;
+}
+/* text color style */
+.text-color {
+  color: rgba(109, 106, 106, 0.795);
+}
+/* this is  section 1*/
+.header-img {
+  background: linear-gradient(0deg, rgba(255, 0, 149, 0), rgba(0, 0, 0, 0.527)),
+    url("/Images/bg_banner.png");
+  margin-top: 20px;
+  height: 600px;
+  width: 98%;
+  border-radius: 20px;
+  background-repeat: no-repeat;
+  align-items: center;
+  background-size: cover;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* secton 2 */
+.section-two {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 90px;
+  margin: 20px;
+}
+.section-img-two {
+  margin-top: 60px;
+  margin-bottom: 200px;
+}
+.section-div {
+  margin-bottom: 20px;
+}
+/* section three */
+.section-three {
+  margin-top: 30px;
+}
+.first-item {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  align-items: center;
+}
+.img-text-container-1 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Bangladesh-img{
+  width: 530px;
+  height: 300px;
+}
+.cntr-img1 {
+  height: 350px;
+  width: 600px;
+  margin-right: auto;
+}
+.cntr-text1 {
+  position: absolute;
+  top: 40%;
+  left: 45%;
+  color: white;
+}
+.cntr-img2 {
+  height: 350px;
+  width: 600px;
+  margin-left: auto;
+}
+.Kashmir-img {
+  width: 330px;
+  height: 285px;
+}
+.second-item {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  justify-items: self-end;
+  gap: 30px;
+}
+.third-item {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 30px;
+}
+/* knhkokjgoikjhpoko */
+#section-title {
+  text-align: center;
+  padding-top: 120px;
+  color: aliceblue;
+  font-size: 50px;
+  font-family: sans-serif;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+.heading-peragraph {
+  color: aliceblue;
+  width: 70%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.logo-text {
+  display: flex;
+  align-content: center;
+  align-items: center;
+}
+.destination-text{
+  font-size: 30px;
+}
+.destination-select {
+  display: flex;
+  gap: 10px;
+  background-color: rgba(255, 255, 255, 0.322);
+  padding: 10px;
+  border-radius: 5px;
+}
+.select-container {
+  display: flex;
+  justify-content: center;
+}
+select {
+  border: none;
+  color: rgba(24, 24, 24, 0.37);
+  background-color: white;
+  font-weight: 600;
+  padding: 5px;
+  border-radius: 5px;
+  outline: none;
+}
+.destination {
+  text-align: center;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
