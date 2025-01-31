@@ -1,15 +1,140 @@
-
-
-
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 .inter-font {
-    font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-  }
-  *{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-  }
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* common shared styles */
+p {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+/* header navbar styles */
+body {
+  background-color: rgba(0, 0, 0, 0.781);
+  /* background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%); */
+}
+
+.navbar,
+.banner {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-title {
+  color: rgb(230, 83, 60);
+  font-size: 36px;
+  font-weight: 800;
+}
+
+.nav-menu {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding-right: 20px;
+  outline: 0.5px solid rgba(255, 255, 255, 0.185);
+  border-radius: 40px;
+}
+
+.home {
+  font-size: 18px;
+  font-weight: 600;
+  background-color: rgb(230, 83, 60);
+  padding: 8px 20px 8px 20px;
+  border-radius: 46px;
+}
+
+/* banner styles */
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid white;
+  margin-top: 40px;
+}
+
+.banner-content {
+  width: 50%;
+  border: 2px solid aqua;
+}
+
+.banner-title {
+  color: white;
+  font-size: 70px;
+  font-weight: 900;
+  margin-bottom: 30px;
+}
+
+.banner-btn-1,
+.banner-btn-2 {
+  border-radius: 42px;
+  color: white;
+  padding: 16px 40px;
+  margin-top: 20px;
+}
+
+.banner-btn-1 {
+  border: none;
+  background-color: rgb(230, 83, 60);
+}
+
+.banner-btn-2 {
+  border: 1px solid rgb(255, 255, 255);
+
+  background-color: black;
+  margin-left: 15px;
+}
+
+.banner-img {
+  border: 2px solid blueviolet;
+  position: relative;
+}
+
+.free-workout {
+  position: absolute;
+  /* right: -30px;
+  top: 160px; */
+  padding: 10px;
+  right: -15%;
+  top: 25%;
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  backdrop-filter: blur(20px);
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.tutorial-video {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  gap: 5px;
+  position: absolute;
+  left: -13%;
+  bottom: 15%;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  backdrop-filter: blur(20px);
+  background: rgba(48, 48, 48, 0.54);
+}
+
+.circule {
+  height: 20px;
+  width: 20px;
+  background: rgb(230, 83, 60);
+  border-radius: 50%;
+}
