@@ -282,3 +282,12 @@ table, th, td {
   left: 5%;
   bottom: 10%;
 }
+footer{
+  max-width: 1200px;
+  margin: 50px auto;
+}
+.footer-container{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
