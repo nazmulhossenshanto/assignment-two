@@ -87,7 +87,8 @@ body {
 }
 
 .banner-btn-1,
-.banner-btn-2 {
+.banner-btn-2, .btn-primary {
+  text-align: center;
   border-radius: 42px;
   color: white;
   padding: 16px 40px;
@@ -170,4 +171,33 @@ body {
   border-radius: 50%;
   border: 1px solid white;
   box-shadow: 0 0 10px black;
+}
+.extra-run-section{
+  max-width: 1200px;
+  margin: 50px auto;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 18px;
+  padding: 20px;
+  background: rgb(34, 34, 34);
+}
+.run-text-container{
+  padding-left: 20px;
+}
+.run-title{
+  color: white;
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+
+.run-img-container img{
+  width: 350px;
+  border-radius: 18px;
+  /* background: url(4); */
+}
+
+.btn-primary{
+  margin-top: 30px;
+  width: 220px;
+  background-color: rgb(230, 83, 60);
 }
