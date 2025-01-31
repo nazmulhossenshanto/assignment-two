@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 .inter-font {
-  font-family: "Inter", sans-serif;
+  font-family: "Inter"; 
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
@@ -17,7 +17,16 @@
 p {
   color: rgba(255, 255, 255, 0.5);
 }
-
+h4{
+  color: white;
+  font-weight: 600;
+}
+h3{
+  color: white;
+  font-size: 30px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
 /* header navbar styles */
 body {
   background-color: rgba(0, 0, 0, 0.781);
@@ -63,13 +72,11 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border: 2px solid white;
   margin-top: 40px;
 }
 
 .banner-content {
   width: 50%;
-  border: 2px solid aqua;
 }
 
 .banner-title {
@@ -94,13 +101,11 @@ body {
 
 .banner-btn-2 {
   border: 1px solid rgb(255, 255, 255);
-
   background-color: black;
   margin-left: 15px;
 }
 
 .banner-img {
-  border: 2px solid blueviolet;
   position: relative;
 }
 
@@ -137,4 +142,32 @@ body {
   width: 20px;
   background: rgb(230, 83, 60);
   border-radius: 50%;
+}
+/* habit section styles start here */
+.habit-section{
+
+  max-width: 1200px;
+  margin: 50px auto;
+}
+.habit-text{
+  text-align: center;
+}
+.card-container{
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.card{
+   /* display: flex;
+   flex-direction: column; */
+   text-align: center;
+}
+.card h4 {
+  margin-bottom: 10px; /* h4 এবং p-এর মধ্যে নিচে 10px gap */
+}
+.card img{
+  margin-bottom: 20px;
+  border-radius: 50%;
+  border: 1px solid white;
+  box-shadow: 0 0 10px black;
 }
