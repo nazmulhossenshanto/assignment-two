@@ -195,9 +195,90 @@ body {
   border-radius: 18px;
   /* background: url(4); */
 }
+.bmi-form-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
 .btn-primary{
   margin-top: 30px;
   width: 220px;
   background-color: rgb(230, 83, 60);
+}
+.bmi-text-container{
+  max-width: 1200px;
+  margin: 50px auto;
+  padding: 100px;
+  border: 2px solid red;
+}
+
+table, th, td {
+  border: 1px solid rgb(87, 85, 85);
+  border-collapse: collapse;
+  padding: 10px;
+}
+
+ /* body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #222;
+} */
+
+.form-container {
+  background-color: #333;
+  padding: 20px;
+  border-radius: 8px;
+  width: 300px;
+}
+
+.form-group {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.form-field {
+  width: 48%;
+  padding: 10px;
+  background-color: #444;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+}
+
+.full-width {
+  width: 100%;
+} 
+
+/* tear section styles start here */
+.meet-section{
+  max-width: 1200px;
+  margin: 50px auto;
+  
+}
+.team-container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 20px;
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.1);
+  gap: 20px;
+}
+.team-card{
+  position: relative;
+}
+.team-card img{
+  width: 100%;
+  height: 100%;
+  border-radius: 18px;
+  flex-grow: 1;
+}
+.trainer{
+  position: absolute;
+  left: 5%;
+  bottom: 10%;
 }
