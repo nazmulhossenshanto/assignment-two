@@ -110,6 +110,11 @@ header {
   margin-bottom: 30px;
 }
 
+.shape-text {
+  font-family: 'Miama', sans-serif;
+  font-size: 70px;
+}
+
 .banner-btn-1,
 .banner-btn-2,
 .btn-primary {
@@ -192,14 +197,16 @@ main {
 .card {
   text-align: center;
 }
+
 .card img {
   margin-bottom: 20px;
   border-radius: 50%;
   border: 1px solid white;
   box-shadow: 0 0 10px black;
 }
+
 /* Run section styles start here */
-.run-section-main{
+.run-section-main {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -207,31 +214,39 @@ main {
   padding: 20px;
   background: rgb(34, 34, 34);
 }
-.run-img-container, .run-text-container{
+
+.run-img-container,
+.run-text-container {
   width: 50%;
 }
+
 .run-img-container img {
   width: 100%;
   border-radius: 18px;
 }
+
 /* BMI Calculator section styles start here */
-.bmi-main{
+.bmi-main {
   padding: 50px 100px;
 }
+
 /* BMI Form section styles starts here */
-.bmi-form-section{
+.bmi-form-section {
   background-color: rgb(44, 42, 42);
 }
-.bmi-form-title{
+
+.bmi-form-title {
   color: white;
   font-weight: 700;
 }
+
 .bmi-form-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 50px 0;
 }
+
 table,
 th,
 td {
@@ -240,15 +255,18 @@ td {
   border-collapse: collapse;
   padding: 10px;
 }
-th{
+
+th {
   font-size: 16px;
   font-weight: 500;
   color: white;
 }
-td{
+
+td {
   color: gray;
 }
-.bmi-form-right{
+
+.bmi-form-right {
   width: 50%;
 }
 
@@ -265,7 +283,8 @@ td{
   border-radius: 8px;
   width: 100%;
 }
-.form-container{
+
+.form-container {
   display: flex;
   justify-content: space-between;
   margin-bottom: 10px;
@@ -280,16 +299,17 @@ td{
   border-radius: 5px;
 }
 
-.activity-factor{
+.activity-factor {
   width: 100%;
 }
 
 /* team section styles start here */
 
-.meet-section-main{
+.meet-section-main {
   padding: 50px 0;
 }
-.team-container{
+
+.team-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   padding: 20px;
@@ -314,6 +334,7 @@ td{
   left: 5%;
   bottom: 10%;
 }
+
 /* Footer Section styles starts here */
 footer {
   background: rgba(12, 12, 12, 0.438);
@@ -325,11 +346,13 @@ footer {
   justify-content: space-between;
   padding: 50px 0;
 }
-.fotter-fitness{
+
+.fotter-fitness {
   font-size: 30px;
   font-weight: 700;
   color: rgb(230, 83, 60);
 }
-.footer-title{
+
+.footer-title {
   font-size: 15px;
 }
