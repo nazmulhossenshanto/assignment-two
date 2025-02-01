@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 .inter-font {
-  font-family: "Inter"; 
+  font-family: "Inter";
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
@@ -14,29 +14,46 @@
 }
 
 /* common shared styles */
+.section-width {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 p {
   color: rgba(255, 255, 255, 0.5);
+  font-size: 13px;
 }
-h4{
+
+h4 {
   color: white;
   font-weight: 600;
 }
-h3{
+
+h3 {
   color: white;
-  font-size: 30px;
-  font-weight: 800;
-  margin-bottom: 20px;
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 10px;
 }
+
 /* header navbar styles */
 body {
   background-color: rgba(0, 0, 0, 0.781);
-  /* background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%); */
+}
+
+header {
+  background: linear-gradient(to bottom,
+      rgba(0, 0, 0, 0.9) 0%,
+      rgba(28, 28, 28, 0.6) 50%,
+      rgba(0, 0, 0, 0.9) 100%);
+}
+
+.navbar-main {
+  padding: 50px 0;
 }
 
 .navbar,
 .banner {
-  max-width: 1200px;
-  margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -48,8 +65,7 @@ body {
   font-weight: 800;
 }
 
-.nav-menu {
-  color: white;
+.nav-menu-option {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -57,6 +73,14 @@ body {
   padding-right: 20px;
   outline: 0.5px solid rgba(255, 255, 255, 0.185);
   border-radius: 40px;
+}
+
+.nav-menu>p {
+  color: white;
+}
+
+.nav-menu>.hambergar-icon {
+  display: none;
 }
 
 .home {
@@ -81,13 +105,14 @@ body {
 
 .banner-title {
   color: white;
-  font-size: 70px;
-  font-weight: 900;
+  font-size: 50px;
+  font-weight: 800;
   margin-bottom: 30px;
 }
 
 .banner-btn-1,
-.banner-btn-2, .btn-primary {
+.banner-btn-2,
+.btn-primary {
   text-align: center;
   border-radius: 42px;
   color: white;
@@ -112,8 +137,6 @@ body {
 
 .free-workout {
   position: absolute;
-  /* right: -30px;
-  top: 160px; */
   padding: 10px;
   right: -15%;
   top: 25%;
@@ -144,97 +167,105 @@ body {
   background: rgb(230, 83, 60);
   border-radius: 50%;
 }
-/* habit section styles start here */
-.habit-section{
 
-  max-width: 1200px;
-  margin: 50px auto;
+main {
+  background: black;
 }
-.habit-text{
+
+/* habit section styles start here */
+.habit-section-main {
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+.habit-text {
+  margin-bottom: 50px;
   text-align: center;
 }
-.card-container{
+
+.card-container {
   margin-top: 50px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
 }
-.card{
-   /* display: flex;
-   flex-direction: column; */
-   text-align: center;
+
+.card {
+  text-align: center;
 }
-.card h4 {
-  margin-bottom: 10px; /* h4 এবং p-এর মধ্যে নিচে 10px gap */
-}
-.card img{
+.card img {
   margin-bottom: 20px;
   border-radius: 50%;
   border: 1px solid white;
   box-shadow: 0 0 10px black;
 }
-.extra-run-section{
-  max-width: 1200px;
-  margin: 50px auto;
+/* Run section styles start here */
+.run-section-main{
   display: flex;
   justify-content: space-between;
+  align-items: center;
   border-radius: 18px;
   padding: 20px;
   background: rgb(34, 34, 34);
 }
-.run-text-container{
-  padding-left: 20px;
+.run-img-container, .run-text-container{
+  width: 50%;
 }
-.run-title{
-  color: white;
-  margin-bottom: 20px;
-  font-size: 30px;
-}
-
-.run-img-container img{
-  width: 350px;
+.run-img-container img {
+  width: 100%;
   border-radius: 18px;
-  /* background: url(4); */
 }
-.bmi-form-container{
+/* BMI Calculator section styles start here */
+.bmi-main{
+  padding: 50px 100px;
+}
+/* BMI Form section styles starts here */
+.bmi-form-section{
+  background-color: rgb(44, 42, 42);
+}
+.bmi-form-title{
+  color: white;
+  font-weight: 700;
+}
+.bmi-form-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 50px 0;
 }
-
-.btn-primary{
+table,
+th,
+td {
   margin-top: 30px;
-  width: 220px;
-  background-color: rgb(230, 83, 60);
-}
-.bmi-text-container{
-  max-width: 1200px;
-  margin: 50px auto;
-  padding: 100px;
-  border: 2px solid red;
-}
-
-table, th, td {
   border: 1px solid rgb(87, 85, 85);
   border-collapse: collapse;
   padding: 10px;
 }
+th{
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+}
+td{
+  color: gray;
+}
+.bmi-form-right{
+  width: 50%;
+}
 
- /* body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  background-color: #222;
-} */
+.btn-primary {
+  margin-top: 30px;
+  width: 220px;
+  background-color: rgb(230, 83, 60);
+}
 
-.form-container {
+.form-main {
+  margin-top: 30px;
   background-color: #333;
   padding: 20px;
   border-radius: 8px;
-  width: 300px;
+  width: 100%;
 }
-
-.form-group {
+.form-container{
   display: flex;
   justify-content: space-between;
   margin-bottom: 10px;
@@ -244,21 +275,19 @@ table, th, td {
   width: 48%;
   padding: 10px;
   background-color: #444;
-  color: white;
+  color: gray;
   border: none;
   border-radius: 5px;
-  outline: none;
 }
 
-.full-width {
+.activity-factor{
   width: 100%;
-} 
+}
 
-/* tear section styles start here */
-.meet-section{
-  max-width: 1200px;
-  margin: 50px auto;
-  
+/* team section styles start here */
+
+.meet-section-main{
+  padding: 50px 0;
 }
 .team-container{
   display: grid;
@@ -268,29 +297,39 @@ table, th, td {
   background: rgba(255, 255, 255, 0.1);
   gap: 20px;
 }
-.team-card{
+
+.team-card {
   position: relative;
 }
-.team-card img{
+
+.team-card img {
   width: 100%;
   height: 100%;
   border-radius: 18px;
   flex-grow: 1;
 }
-.trainer{
+
+.trainer {
   position: absolute;
   left: 5%;
   bottom: 10%;
 }
-footer{
-  background: rgba(255, 255, 255, 0.1);
+/* Footer Section styles starts here */
+footer {
+  background: rgba(12, 12, 12, 0.438);
+  padding-bottom: 30px;
 }
-.section-footer{
-  max-width: 1200px;
-  margin: 50px auto;
-}
-.footer-container{
+
+.footer-container {
   display: flex;
   justify-content: space-between;
   padding: 50px 0;
+}
+.fotter-fitness{
+  font-size: 30px;
+  font-weight: 700;
+  color: rgb(230, 83, 60);
+}
+.footer-title{
+  font-size: 15px;
 }

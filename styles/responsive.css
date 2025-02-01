@@ -1,2 +1,79 @@
+@media (max-width: 576px) {
+  .navbar-main {
+    padding: 50px 10px;
+  }
 
+  .nav-menu>.nav-menu-option {
+    display: none;
+  }
 
+  .nav-menu>.hambergar-icon {
+    color: white;
+    display: block;
+    outline: none;
+  }
+
+  .banner {
+    flex-direction: column;
+  }
+
+  .banner-content {
+    width: 100%;
+  }
+
+  .banner-title {
+    font-size: 30px;
+  }
+
+  .banner-btn-container {
+    text-align: center;
+  }
+
+  .banner-btn-1,
+  .banner-btn-2 {
+    width: 45%;
+  }
+  .card-container{
+    grid-template-columns: 1fr;
+  }
+  .card {
+    margin-bottom: 30px;
+  }
+  .run-section-main{
+    flex-direction: column;
+  }
+  .run-text-container{
+    margin-bottom: 30px;
+  }
+  .run-img-container, .run-text-container, .btn-primary{
+    width: 100%;
+  }
+  .run-img-container img {
+    width: 100%;
+    border-radius: 18px;
+  }
+  .bmi-main{
+    padding: 30px 10px;
+  }
+  .bmi-form-container {
+    flex-direction: column;
+  }
+  .bmi-form-left{
+    margin-bottom: 30px;
+  }
+  .bmi-form-left, .bmi-form-right{
+    width: 95%;
+  }
+  .bmi-form-left > .btn-primary{
+    width: 50%;
+  }
+  .team-container{
+    grid-template-columns: 1fr;
+   
+  }
+  .footer-container {
+    padding: 20px;
+    flex-direction: column;
+    gap: 20px;
+  }
+}
